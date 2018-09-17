@@ -1,0 +1,22 @@
+body {
+	background-color: $background;
+		color: $text;
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+
+	h1 {
+		text-transform: uppercase;
+		letter-spacing: 7px;
+		font-weight: 300;
+		color: $altprim
+	}
+
+	.main-gallery {
+		padding: 4px;
+		margin-bottom: 15px;
+		.image-holder {
+			height: initial;
+			
+		}
+	}
+}

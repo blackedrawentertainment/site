@@ -1,0 +1,138 @@
+.profile-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 500px;
+
+    .container {
+        background-color: $altlight;
+        border: 5px solid $primarycolor;
+        padding: 40px;
+        border-radius: 50px;
+    }
+}
+
+@media(min-width: 768px) {
+    .container{
+        width: 750px
+    }
+}
+.profile-holder {
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+    }
+}
+
+.gallery-heading{
+    h1 {
+        background-color: $primarycolor;
+        margin: 0;
+        padding: 10px 20px;
+        color: $text;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+}
+
+.row {
+    .is-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.profile-box {
+    .row {
+        padding: 15px;
+    }
+}
+
+.rates {
+    background-color: $text;
+
+    p {
+        color: $primarycolor;
+        text-align: center;
+        margin: auto;
+        display: block;
+        font-size: 2em;
+    }
+}
+
+.about {
+    background-color: $text;
+
+    p {
+        color: $primarycolor;
+        font-weight: 300px;
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+    
+    .profile-heading {
+        margin: 0;
+        padding: 10px 0;
+        color: $primarycolor;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 17px;
+    }
+}
+.profile-number {
+    text-align: center;
+    padding: 0;
+
+    a {
+        &:hover {
+            text-decoration: none;
+
+            .num {
+                background-color: $primarycolor;
+                color: $text;
+            }
+        }
+    }
+
+    .num {
+        background-color: $text;
+        padding: 15px;
+        color: $primarycolor;
+        font-size: 18px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 300;
+        transition: 0.25s;
+    }
+}
+
+.profile-reviews {
+    background-color: $text;
+    padding-bottom: 15px;
+
+    .profile-heading {
+        margin: 10px 0;
+    }
+}
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+.h3 {
+    font-size: 24px;
+}
+
+#reviews-form input, #reviews-form select, #reviews-form textarea {
+    border: none;
+    border-radius: 0;
+    height: 50px;
+    box-shadow: none;
+    background-color: #f6f5f1;
+    margin-bottom: 15px;
+}

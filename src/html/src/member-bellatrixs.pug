@@ -1,0 +1,86 @@
+div(class="profile-container")
+    div(class="container")
+        div(class="row")
+            div(class="col-xs-12 col-sm-6")
+                div(class="row")
+                    div(class="col-xs-6 col-sm-12 profile-holder")
+                        a(class="fancybox")
+                            // Main img for model 
+                            img(src="../img/bella.png")
+            div(class='col-xs-12 col-sm-6')
+                div(class="row")
+                    div(class="col-xs-12 gallery-heading")
+                        // Models Name                 
+                        h1 bellatrixs
+                    div(class="col-xs-12 profile-box")
+                        div(class="row is-flex")
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 rates")
+                                p(class="text-center") Head Escort
+                                p(class="text-center")
+                                p(class="text-center") 
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 about")
+                                h2(class="profile-heading") About Me
+                                p Here are the quick and dirty facts so you can get back to clicking through my pictures: I'm honest to a fault, loyal and kinky as fuck. May look sweet and innocent but there’s nothing innocent about me. I love to have fun and my idea of a fun night is a drink in one hand and a blunt in the other. Love to dance and if you play some Bad Bunny I'll give you a show you'll never forget :P. I have killer curves and ass for day, blame it on my Latin blood. I can be a handful but trust me baby I'm worth it. 
+                                // Social Media Links
+                                div(class="text-center")
+                                    // Twitter Social Media                                
+                                    //a(class="social-media-icon" href="")
+                                        i(class="fab fa-twitter" aria-hidden="true")
+                                    //Google Plus Social Media                                       
+                                    //a(class="social-media-icon" href="")
+                                        i(class="fab fa-google-plus" aria-hidden="true")
+                                    //Tumblr Social Media                                     
+                                    //a(class="social-media-icon" href="")
+                                        i(class="fab fa-tumblr" aria-hidden="true")
+                                    //Instagram Social Media
+                                    a(class="social-media-icon" href="https://www.instagram.com/bella_buni/?hl=en")
+                                        i(class="fab fa-instagram" aria-hidden="true")
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 profile-number")
+                                a(href="https://www.imvu.com/catalog/web_send_message_widget.php?recipient_id=89286065" target="_blank")
+                                    div(class="num") Message Me
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 profile-reviews")
+                                h2(class="profile-heading text-center text-red h3") Reviews
+                                form(action="/gallery/ela-40" method="post" id="reviews-form")
+                                    div(id="message")
+                                    input(type="text" name="txt_name" value class="form-control" placeholder="Full Name...")
+                                    input(type="email" name="txt_email" value class="form-control" placeholder="Email Address...")
+                                    input(class="form-control datepicker" name="txt_date" maxlength placeholder="Date of Visit" value type="text")
+                                    select(class="form-control" name="sel_service")
+                                        option(value) Level of Service
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                                        option(value="4") 4
+                                        option(value="5") 5
+                                        option(value="6") 6
+                                        option(value="7") 7
+                                        option(value="8") 8
+                                        option(value="9") 9
+                                        option(value="10") 10
+                                    select(class="form-control" name="sel_attractiveness")
+                                        option(value) Attractiveness
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                                        option(value="4") 4
+                                        option(value="5") 5
+                                        option(value="6") 6
+                                        option(value="7") 7
+                                        option(value="8") 8
+                                        option(value="9") 9
+                                        option(value="10") 10
+                                    textarea(class="form-control" name="txt_review" placeholder="Write your review...")
+                                    div(class="captcha-holder")
+                                        div(class="g=recaptcha" data-sitekey="6ldvrCQUAAAAAPEjCxKV65JVc37_XEj4Yw1GBSw3")
+                                            div(style="width: 304px; height: 78px;")
+                                                textarea(id="g-recaptcha-responce" name="g-recaptcha-responce" class="g-recaptcha-responce" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none; display: none;")
+                                    input(class="form-control form-submit" name="btn_post_review" type="submit" value="submit")
+                                        

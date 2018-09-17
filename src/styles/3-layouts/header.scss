@@ -1,0 +1,22 @@
+.logo {
+	
+	display: flex;
+	text-align: center;
+	content-align: center;
+
+
+	a {
+		font-weight: 300;
+		font-size: 64px;
+		letter-spacing: 10px;
+		text-transformation: uppercase;
+		text-align: center;
+		text-decoration: none;
+		color: $text;
+		margin: 10px auto;
+
+		span {
+			color: $primarycolor
+		}
+	}
+}

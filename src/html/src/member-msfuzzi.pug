@@ -1,0 +1,70 @@
+div(class="profile-container")
+    div(class="container")
+        div(class="row")
+            div(class="col-xs-12 col-sm-6")
+                div(class="row")
+                    div(class="col-xs-6 col-sm-12 profile-holder")
+                        a(class="fancybox")
+                            img(src="../img/gall.png")
+            div(class='col-xs-12 col-sm-6')
+                div(class="row")
+                    div(class="col-xs-12 gallery-heading")
+                        h1 msfuzzi
+                    div(class="col-xs-12 profile-box")
+                        div(class="row is-flex")
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 rates")
+                                p(class="text-center") tba
+                                p(class="text-center") tba
+                                p(class="text-center") tba
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 about")
+                                h2(class="profile-heading") About Me
+                                p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum iure odit ipsam dolorum dolore voluptatibus perspiciatis alias, doloremque veniam minima architecto officiis debitis facere eum id harum nisi quisquam illo!
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 profile-number")
+                                a(href="")
+                                    div(class="num") Message Me
+                    div(class="col-xs-12 profile-box")
+                        div(class="row")
+                            div(class="col-xs-12 profile-reviews")
+                                h2(class="profile-heading text-center text-red h3") Reviews
+                                form(action="/gallery/ela-40" method="post" id="reviews-form")
+                                    div(id="message")
+                                    input(type="text" name="txt_name" value class="form-control" placeholder="Full Name...")
+                                    input(type="email" name="txt_email" value class="form-control" placeholder="Email Address...")
+                                    input(class="form-control datepicker" name="txt_date" maxlength placeholder="Date of Visit" value type="text")
+                                    select(class="form-control" name="sel_service")
+                                        option(value) Level of Service
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                                        option(value="4") 4
+                                        option(value="5") 5
+                                        option(value="6") 6
+                                        option(value="7") 7
+                                        option(value="8") 8
+                                        option(value="9") 9
+                                        option(value="10") 10
+                                    select(class="form-control" name="sel_attractiveness")
+                                        option(value) Attractiveness
+                                        option(value="1") 1
+                                        option(value="2") 2
+                                        option(value="3") 3
+                                        option(value="4") 4
+                                        option(value="5") 5
+                                        option(value="6") 6
+                                        option(value="7") 7
+                                        option(value="8") 8
+                                        option(value="9") 9
+                                        option(value="10") 10
+                                    textarea(class="form-control" name="txt_review" placeholder="Write your review...")
+                                    div(class="captcha-holder")
+                                        div(class="g=recaptcha" data-sitekey="6ldvrCQUAAAAAPEjCxKV65JVc37_XEj4Yw1GBSw3")
+                                            div(style="width: 304px; height: 78px;")
+                                                textarea(id="g-recaptcha-responce" name="g-recaptcha-responce" class="g-recaptcha-responce" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none; display: none;")
+                                    input(class="form-control form-submit" name="btn_post_review" type="submit" value="submit")
+                                        
